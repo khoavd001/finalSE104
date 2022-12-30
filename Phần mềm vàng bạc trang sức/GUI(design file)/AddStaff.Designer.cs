@@ -1,0 +1,743 @@
+﻿namespace Phần_mềm_vàng_bạc_trang_sức.GUI_design_file_
+{
+    partial class AddStaff
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddStaff));
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            this.ExitButton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
+            this.AddStaffButton = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
+            this.PhoneTxtAdd = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.EmailTxt = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.GenderAddTxt = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.NameAddTxt = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.ShiftButton = new Bunifu.UI.WinForms.BunifuLabel();
+            this.ShiftTxt = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.SuspendLayout();
+            // 
+            // ExitButton
+            // 
+            this.ExitButton.AllowAnimations = true;
+            this.ExitButton.AllowMouseEffects = true;
+            this.ExitButton.AllowToggling = false;
+            this.ExitButton.AnimationSpeed = 200;
+            this.ExitButton.AutoGenerateColors = false;
+            this.ExitButton.AutoRoundBorders = false;
+            this.ExitButton.AutoSizeLeftIcon = true;
+            this.ExitButton.AutoSizeRightIcon = true;
+            this.ExitButton.BackColor = System.Drawing.Color.Transparent;
+            this.ExitButton.BackColor1 = System.Drawing.Color.DarkSlateGray;
+            this.ExitButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ExitButton.BackgroundImage")));
+            this.ExitButton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.ExitButton.ButtonText = "Exit";
+            this.ExitButton.ButtonTextMarginLeft = 0;
+            this.ExitButton.ColorContrastOnClick = 45;
+            this.ExitButton.ColorContrastOnHover = 45;
+            this.ExitButton.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.ExitButton.CustomizableEdges = borderEdges1;
+            this.ExitButton.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.ExitButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.ExitButton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.ExitButton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.ExitButton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
+            this.ExitButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitButton.ForeColor = System.Drawing.Color.White;
+            this.ExitButton.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ExitButton.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.ExitButton.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.ExitButton.IconMarginLeft = 11;
+            this.ExitButton.IconPadding = 10;
+            this.ExitButton.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ExitButton.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.ExitButton.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.ExitButton.IconSize = 25;
+            this.ExitButton.IdleBorderColor = System.Drawing.Color.LightCyan;
+            this.ExitButton.IdleBorderRadius = 1;
+            this.ExitButton.IdleBorderThickness = 1;
+            this.ExitButton.IdleFillColor = System.Drawing.Color.DarkSlateGray;
+            this.ExitButton.IdleIconLeftImage = null;
+            this.ExitButton.IdleIconRightImage = null;
+            this.ExitButton.IndicateFocus = false;
+            this.ExitButton.Location = new System.Drawing.Point(468, 429);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.ExitButton.OnDisabledState.BorderRadius = 1;
+            this.ExitButton.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.ExitButton.OnDisabledState.BorderThickness = 1;
+            this.ExitButton.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.ExitButton.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.ExitButton.OnDisabledState.IconLeftImage = null;
+            this.ExitButton.OnDisabledState.IconRightImage = null;
+            this.ExitButton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.ExitButton.onHoverState.BorderRadius = 1;
+            this.ExitButton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.ExitButton.onHoverState.BorderThickness = 1;
+            this.ExitButton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.ExitButton.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.ExitButton.onHoverState.IconLeftImage = null;
+            this.ExitButton.onHoverState.IconRightImage = null;
+            this.ExitButton.OnIdleState.BorderColor = System.Drawing.Color.LightCyan;
+            this.ExitButton.OnIdleState.BorderRadius = 1;
+            this.ExitButton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.ExitButton.OnIdleState.BorderThickness = 1;
+            this.ExitButton.OnIdleState.FillColor = System.Drawing.Color.DarkSlateGray;
+            this.ExitButton.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.ExitButton.OnIdleState.IconLeftImage = null;
+            this.ExitButton.OnIdleState.IconRightImage = null;
+            this.ExitButton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.ExitButton.OnPressedState.BorderRadius = 1;
+            this.ExitButton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.ExitButton.OnPressedState.BorderThickness = 1;
+            this.ExitButton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.ExitButton.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.ExitButton.OnPressedState.IconLeftImage = null;
+            this.ExitButton.OnPressedState.IconRightImage = null;
+            this.ExitButton.Size = new System.Drawing.Size(212, 80);
+            this.ExitButton.TabIndex = 19;
+            this.ExitButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ExitButton.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ExitButton.TextMarginLeft = 0;
+            this.ExitButton.TextPadding = new System.Windows.Forms.Padding(0);
+            this.ExitButton.UseDefaultRadiusAndThickness = true;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+            // 
+            // AddStaffButton
+            // 
+            this.AddStaffButton.AllowAnimations = true;
+            this.AddStaffButton.AllowMouseEffects = true;
+            this.AddStaffButton.AllowToggling = false;
+            this.AddStaffButton.AnimationSpeed = 200;
+            this.AddStaffButton.AutoGenerateColors = false;
+            this.AddStaffButton.AutoRoundBorders = false;
+            this.AddStaffButton.AutoSizeLeftIcon = true;
+            this.AddStaffButton.AutoSizeRightIcon = true;
+            this.AddStaffButton.BackColor = System.Drawing.Color.Transparent;
+            this.AddStaffButton.BackColor1 = System.Drawing.Color.DarkSlateGray;
+            this.AddStaffButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AddStaffButton.BackgroundImage")));
+            this.AddStaffButton.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.AddStaffButton.ButtonText = "Add Staff";
+            this.AddStaffButton.ButtonTextMarginLeft = 0;
+            this.AddStaffButton.ColorContrastOnClick = 45;
+            this.AddStaffButton.ColorContrastOnHover = 45;
+            this.AddStaffButton.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.AddStaffButton.CustomizableEdges = borderEdges2;
+            this.AddStaffButton.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.AddStaffButton.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.AddStaffButton.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.AddStaffButton.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.AddStaffButton.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.ButtonStates.Pressed;
+            this.AddStaffButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddStaffButton.ForeColor = System.Drawing.Color.White;
+            this.AddStaffButton.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.AddStaffButton.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.AddStaffButton.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.AddStaffButton.IconMarginLeft = 11;
+            this.AddStaffButton.IconPadding = 10;
+            this.AddStaffButton.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.AddStaffButton.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.AddStaffButton.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.AddStaffButton.IconSize = 25;
+            this.AddStaffButton.IdleBorderColor = System.Drawing.Color.LightCyan;
+            this.AddStaffButton.IdleBorderRadius = 1;
+            this.AddStaffButton.IdleBorderThickness = 1;
+            this.AddStaffButton.IdleFillColor = System.Drawing.Color.DarkSlateGray;
+            this.AddStaffButton.IdleIconLeftImage = null;
+            this.AddStaffButton.IdleIconRightImage = null;
+            this.AddStaffButton.IndicateFocus = false;
+            this.AddStaffButton.Location = new System.Drawing.Point(165, 429);
+            this.AddStaffButton.Name = "AddStaffButton";
+            this.AddStaffButton.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.AddStaffButton.OnDisabledState.BorderRadius = 1;
+            this.AddStaffButton.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.AddStaffButton.OnDisabledState.BorderThickness = 1;
+            this.AddStaffButton.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.AddStaffButton.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.AddStaffButton.OnDisabledState.IconLeftImage = null;
+            this.AddStaffButton.OnDisabledState.IconRightImage = null;
+            this.AddStaffButton.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.AddStaffButton.onHoverState.BorderRadius = 1;
+            this.AddStaffButton.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.AddStaffButton.onHoverState.BorderThickness = 1;
+            this.AddStaffButton.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.AddStaffButton.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.AddStaffButton.onHoverState.IconLeftImage = null;
+            this.AddStaffButton.onHoverState.IconRightImage = null;
+            this.AddStaffButton.OnIdleState.BorderColor = System.Drawing.Color.LightCyan;
+            this.AddStaffButton.OnIdleState.BorderRadius = 1;
+            this.AddStaffButton.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.AddStaffButton.OnIdleState.BorderThickness = 1;
+            this.AddStaffButton.OnIdleState.FillColor = System.Drawing.Color.DarkSlateGray;
+            this.AddStaffButton.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.AddStaffButton.OnIdleState.IconLeftImage = null;
+            this.AddStaffButton.OnIdleState.IconRightImage = null;
+            this.AddStaffButton.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.AddStaffButton.OnPressedState.BorderRadius = 1;
+            this.AddStaffButton.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderStyles.Solid;
+            this.AddStaffButton.OnPressedState.BorderThickness = 1;
+            this.AddStaffButton.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.AddStaffButton.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.AddStaffButton.OnPressedState.IconLeftImage = null;
+            this.AddStaffButton.OnPressedState.IconRightImage = null;
+            this.AddStaffButton.Size = new System.Drawing.Size(212, 80);
+            this.AddStaffButton.TabIndex = 18;
+            this.AddStaffButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.AddStaffButton.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.AddStaffButton.TextMarginLeft = 0;
+            this.AddStaffButton.TextPadding = new System.Windows.Forms.Padding(0);
+            this.AddStaffButton.UseDefaultRadiusAndThickness = true;
+            this.AddStaffButton.Click += new System.EventHandler(this.AddCustomerButton_Click);
+            // 
+            // PhoneTxtAdd
+            // 
+            this.PhoneTxtAdd.AcceptsReturn = false;
+            this.PhoneTxtAdd.AcceptsTab = false;
+            this.PhoneTxtAdd.AnimationSpeed = 200;
+            this.PhoneTxtAdd.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.PhoneTxtAdd.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.PhoneTxtAdd.AutoSizeHeight = true;
+            this.PhoneTxtAdd.BackColor = System.Drawing.Color.Transparent;
+            this.PhoneTxtAdd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PhoneTxtAdd.BackgroundImage")));
+            this.PhoneTxtAdd.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.PhoneTxtAdd.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.PhoneTxtAdd.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.PhoneTxtAdd.BorderColorIdle = System.Drawing.Color.Silver;
+            this.PhoneTxtAdd.BorderRadius = 1;
+            this.PhoneTxtAdd.BorderThickness = 1;
+            this.PhoneTxtAdd.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.PhoneTxtAdd.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PhoneTxtAdd.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.PhoneTxtAdd.DefaultText = "";
+            this.PhoneTxtAdd.FillColor = System.Drawing.Color.White;
+            this.PhoneTxtAdd.HideSelection = true;
+            this.PhoneTxtAdd.IconLeft = null;
+            this.PhoneTxtAdd.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.PhoneTxtAdd.IconPadding = 10;
+            this.PhoneTxtAdd.IconRight = null;
+            this.PhoneTxtAdd.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.PhoneTxtAdd.Lines = new string[0];
+            this.PhoneTxtAdd.Location = new System.Drawing.Point(292, 266);
+            this.PhoneTxtAdd.MaxLength = 32767;
+            this.PhoneTxtAdd.MinimumSize = new System.Drawing.Size(1, 1);
+            this.PhoneTxtAdd.Modified = false;
+            this.PhoneTxtAdd.Multiline = false;
+            this.PhoneTxtAdd.Name = "PhoneTxtAdd";
+            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PhoneTxtAdd.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.PhoneTxtAdd.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PhoneTxtAdd.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Silver;
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.PhoneTxtAdd.OnIdleState = stateProperties4;
+            this.PhoneTxtAdd.Padding = new System.Windows.Forms.Padding(3);
+            this.PhoneTxtAdd.PasswordChar = '\0';
+            this.PhoneTxtAdd.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.PhoneTxtAdd.PlaceholderText = "Your Phone";
+            this.PhoneTxtAdd.ReadOnly = false;
+            this.PhoneTxtAdd.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.PhoneTxtAdd.SelectedText = "";
+            this.PhoneTxtAdd.SelectionLength = 0;
+            this.PhoneTxtAdd.SelectionStart = 0;
+            this.PhoneTxtAdd.ShortcutsEnabled = true;
+            this.PhoneTxtAdd.Size = new System.Drawing.Size(344, 43);
+            this.PhoneTxtAdd.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.PhoneTxtAdd.TabIndex = 17;
+            this.PhoneTxtAdd.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.PhoneTxtAdd.TextMarginBottom = 0;
+            this.PhoneTxtAdd.TextMarginLeft = 3;
+            this.PhoneTxtAdd.TextMarginTop = 1;
+            this.PhoneTxtAdd.TextPlaceholder = "Your Phone";
+            this.PhoneTxtAdd.UseSystemPasswordChar = false;
+            this.PhoneTxtAdd.WordWrap = true;
+            this.PhoneTxtAdd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PhoneTxtAdd_KeyPress);
+            // 
+            // EmailTxt
+            // 
+            this.EmailTxt.AcceptsReturn = false;
+            this.EmailTxt.AcceptsTab = false;
+            this.EmailTxt.AnimationSpeed = 200;
+            this.EmailTxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.EmailTxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.EmailTxt.AutoSizeHeight = true;
+            this.EmailTxt.BackColor = System.Drawing.Color.Transparent;
+            this.EmailTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EmailTxt.BackgroundImage")));
+            this.EmailTxt.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.EmailTxt.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.EmailTxt.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.EmailTxt.BorderColorIdle = System.Drawing.Color.Silver;
+            this.EmailTxt.BorderRadius = 1;
+            this.EmailTxt.BorderThickness = 1;
+            this.EmailTxt.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.EmailTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.EmailTxt.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.EmailTxt.DefaultText = "";
+            this.EmailTxt.FillColor = System.Drawing.Color.White;
+            this.EmailTxt.HideSelection = true;
+            this.EmailTxt.IconLeft = null;
+            this.EmailTxt.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.EmailTxt.IconPadding = 10;
+            this.EmailTxt.IconRight = null;
+            this.EmailTxt.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.EmailTxt.Lines = new string[0];
+            this.EmailTxt.Location = new System.Drawing.Point(292, 197);
+            this.EmailTxt.MaxLength = 32767;
+            this.EmailTxt.MinimumSize = new System.Drawing.Size(1, 1);
+            this.EmailTxt.Modified = false;
+            this.EmailTxt.Multiline = false;
+            this.EmailTxt.Name = "EmailTxt";
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.EmailTxt.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.EmailTxt.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.EmailTxt.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.Color.White;
+            stateProperties8.ForeColor = System.Drawing.Color.Empty;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.EmailTxt.OnIdleState = stateProperties8;
+            this.EmailTxt.Padding = new System.Windows.Forms.Padding(3);
+            this.EmailTxt.PasswordChar = '\0';
+            this.EmailTxt.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.EmailTxt.PlaceholderText = "Your Email";
+            this.EmailTxt.ReadOnly = false;
+            this.EmailTxt.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.EmailTxt.SelectedText = "";
+            this.EmailTxt.SelectionLength = 0;
+            this.EmailTxt.SelectionStart = 0;
+            this.EmailTxt.ShortcutsEnabled = true;
+            this.EmailTxt.Size = new System.Drawing.Size(344, 43);
+            this.EmailTxt.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.EmailTxt.TabIndex = 16;
+            this.EmailTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.EmailTxt.TextMarginBottom = 0;
+            this.EmailTxt.TextMarginLeft = 3;
+            this.EmailTxt.TextMarginTop = 1;
+            this.EmailTxt.TextPlaceholder = "Your Email";
+            this.EmailTxt.UseSystemPasswordChar = false;
+            this.EmailTxt.WordWrap = true;
+            // 
+            // GenderAddTxt
+            // 
+            this.GenderAddTxt.AcceptsReturn = false;
+            this.GenderAddTxt.AcceptsTab = false;
+            this.GenderAddTxt.AnimationSpeed = 200;
+            this.GenderAddTxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.GenderAddTxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.GenderAddTxt.AutoSizeHeight = true;
+            this.GenderAddTxt.BackColor = System.Drawing.Color.Transparent;
+            this.GenderAddTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("GenderAddTxt.BackgroundImage")));
+            this.GenderAddTxt.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.GenderAddTxt.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.GenderAddTxt.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.GenderAddTxt.BorderColorIdle = System.Drawing.Color.Silver;
+            this.GenderAddTxt.BorderRadius = 1;
+            this.GenderAddTxt.BorderThickness = 1;
+            this.GenderAddTxt.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.GenderAddTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.GenderAddTxt.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.GenderAddTxt.DefaultText = "";
+            this.GenderAddTxt.FillColor = System.Drawing.Color.White;
+            this.GenderAddTxt.HideSelection = true;
+            this.GenderAddTxt.IconLeft = null;
+            this.GenderAddTxt.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.GenderAddTxt.IconPadding = 10;
+            this.GenderAddTxt.IconRight = null;
+            this.GenderAddTxt.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.GenderAddTxt.Lines = new string[0];
+            this.GenderAddTxt.Location = new System.Drawing.Point(292, 128);
+            this.GenderAddTxt.MaxLength = 32767;
+            this.GenderAddTxt.MinimumSize = new System.Drawing.Size(1, 1);
+            this.GenderAddTxt.Modified = false;
+            this.GenderAddTxt.Multiline = false;
+            this.GenderAddTxt.Name = "GenderAddTxt";
+            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties9.FillColor = System.Drawing.Color.Empty;
+            stateProperties9.ForeColor = System.Drawing.Color.Empty;
+            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.GenderAddTxt.OnActiveState = stateProperties9;
+            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.GenderAddTxt.OnDisabledState = stateProperties10;
+            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties11.FillColor = System.Drawing.Color.Empty;
+            stateProperties11.ForeColor = System.Drawing.Color.Empty;
+            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.GenderAddTxt.OnHoverState = stateProperties11;
+            stateProperties12.BorderColor = System.Drawing.Color.Silver;
+            stateProperties12.FillColor = System.Drawing.Color.White;
+            stateProperties12.ForeColor = System.Drawing.Color.Empty;
+            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.GenderAddTxt.OnIdleState = stateProperties12;
+            this.GenderAddTxt.Padding = new System.Windows.Forms.Padding(3);
+            this.GenderAddTxt.PasswordChar = '\0';
+            this.GenderAddTxt.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.GenderAddTxt.PlaceholderText = "Male/Female";
+            this.GenderAddTxt.ReadOnly = false;
+            this.GenderAddTxt.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.GenderAddTxt.SelectedText = "";
+            this.GenderAddTxt.SelectionLength = 0;
+            this.GenderAddTxt.SelectionStart = 0;
+            this.GenderAddTxt.ShortcutsEnabled = true;
+            this.GenderAddTxt.Size = new System.Drawing.Size(344, 43);
+            this.GenderAddTxt.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.GenderAddTxt.TabIndex = 15;
+            this.GenderAddTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.GenderAddTxt.TextMarginBottom = 0;
+            this.GenderAddTxt.TextMarginLeft = 3;
+            this.GenderAddTxt.TextMarginTop = 1;
+            this.GenderAddTxt.TextPlaceholder = "Male/Female";
+            this.GenderAddTxt.UseSystemPasswordChar = false;
+            this.GenderAddTxt.WordWrap = true;
+            // 
+            // bunifuLabel4
+            // 
+            this.bunifuLabel4.AllowParentOverrides = false;
+            this.bunifuLabel4.AutoEllipsis = false;
+            this.bunifuLabel4.CursorType = null;
+            this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel4.Location = new System.Drawing.Point(165, 266);
+            this.bunifuLabel4.Name = "bunifuLabel4";
+            this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel4.Size = new System.Drawing.Size(64, 28);
+            this.bunifuLabel4.TabIndex = 14;
+            this.bunifuLabel4.Text = "Phone:";
+            this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel3
+            // 
+            this.bunifuLabel3.AllowParentOverrides = false;
+            this.bunifuLabel3.AutoEllipsis = false;
+            this.bunifuLabel3.CursorType = null;
+            this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel3.Location = new System.Drawing.Point(165, 197);
+            this.bunifuLabel3.Name = "bunifuLabel3";
+            this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel3.Size = new System.Drawing.Size(57, 28);
+            this.bunifuLabel3.TabIndex = 13;
+            this.bunifuLabel3.Text = "Email:";
+            this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel2
+            // 
+            this.bunifuLabel2.AllowParentOverrides = false;
+            this.bunifuLabel2.AutoEllipsis = false;
+            this.bunifuLabel2.CursorType = null;
+            this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel2.Location = new System.Drawing.Point(165, 128);
+            this.bunifuLabel2.Name = "bunifuLabel2";
+            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel2.Size = new System.Drawing.Size(73, 28);
+            this.bunifuLabel2.TabIndex = 12;
+            this.bunifuLabel2.Text = "Gender:";
+            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel1
+            // 
+            this.bunifuLabel1.AllowParentOverrides = false;
+            this.bunifuLabel1.AutoEllipsis = false;
+            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel1.Location = new System.Drawing.Point(165, 61);
+            this.bunifuLabel1.Name = "bunifuLabel1";
+            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel1.Size = new System.Drawing.Size(61, 28);
+            this.bunifuLabel1.TabIndex = 11;
+            this.bunifuLabel1.Text = "Name:";
+            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // NameAddTxt
+            // 
+            this.NameAddTxt.AcceptsReturn = false;
+            this.NameAddTxt.AcceptsTab = false;
+            this.NameAddTxt.AnimationSpeed = 200;
+            this.NameAddTxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.NameAddTxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.NameAddTxt.AutoSizeHeight = true;
+            this.NameAddTxt.BackColor = System.Drawing.Color.Transparent;
+            this.NameAddTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("NameAddTxt.BackgroundImage")));
+            this.NameAddTxt.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.NameAddTxt.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.NameAddTxt.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.NameAddTxt.BorderColorIdle = System.Drawing.Color.Silver;
+            this.NameAddTxt.BorderRadius = 1;
+            this.NameAddTxt.BorderThickness = 1;
+            this.NameAddTxt.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.NameAddTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.NameAddTxt.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.NameAddTxt.DefaultText = "";
+            this.NameAddTxt.FillColor = System.Drawing.Color.White;
+            this.NameAddTxt.HideSelection = true;
+            this.NameAddTxt.IconLeft = null;
+            this.NameAddTxt.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.NameAddTxt.IconPadding = 10;
+            this.NameAddTxt.IconRight = null;
+            this.NameAddTxt.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.NameAddTxt.Lines = new string[0];
+            this.NameAddTxt.Location = new System.Drawing.Point(292, 61);
+            this.NameAddTxt.MaxLength = 32767;
+            this.NameAddTxt.MinimumSize = new System.Drawing.Size(1, 1);
+            this.NameAddTxt.Modified = false;
+            this.NameAddTxt.Multiline = false;
+            this.NameAddTxt.Name = "NameAddTxt";
+            stateProperties13.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties13.FillColor = System.Drawing.Color.Empty;
+            stateProperties13.ForeColor = System.Drawing.Color.Empty;
+            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.NameAddTxt.OnActiveState = stateProperties13;
+            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.NameAddTxt.OnDisabledState = stateProperties14;
+            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties15.FillColor = System.Drawing.Color.Empty;
+            stateProperties15.ForeColor = System.Drawing.Color.Empty;
+            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.NameAddTxt.OnHoverState = stateProperties15;
+            stateProperties16.BorderColor = System.Drawing.Color.Silver;
+            stateProperties16.FillColor = System.Drawing.Color.White;
+            stateProperties16.ForeColor = System.Drawing.Color.Empty;
+            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.NameAddTxt.OnIdleState = stateProperties16;
+            this.NameAddTxt.Padding = new System.Windows.Forms.Padding(3);
+            this.NameAddTxt.PasswordChar = '\0';
+            this.NameAddTxt.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.NameAddTxt.PlaceholderText = "Name";
+            this.NameAddTxt.ReadOnly = false;
+            this.NameAddTxt.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.NameAddTxt.SelectedText = "";
+            this.NameAddTxt.SelectionLength = 0;
+            this.NameAddTxt.SelectionStart = 0;
+            this.NameAddTxt.ShortcutsEnabled = true;
+            this.NameAddTxt.Size = new System.Drawing.Size(344, 43);
+            this.NameAddTxt.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.NameAddTxt.TabIndex = 10;
+            this.NameAddTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.NameAddTxt.TextMarginBottom = 0;
+            this.NameAddTxt.TextMarginLeft = 3;
+            this.NameAddTxt.TextMarginTop = 1;
+            this.NameAddTxt.TextPlaceholder = "Name";
+            this.NameAddTxt.UseSystemPasswordChar = false;
+            this.NameAddTxt.WordWrap = true;
+            // 
+            // ShiftButton
+            // 
+            this.ShiftButton.AllowParentOverrides = false;
+            this.ShiftButton.AutoEllipsis = false;
+            this.ShiftButton.CursorType = null;
+            this.ShiftButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShiftButton.Location = new System.Drawing.Point(165, 334);
+            this.ShiftButton.Name = "ShiftButton";
+            this.ShiftButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ShiftButton.Size = new System.Drawing.Size(50, 28);
+            this.ShiftButton.TabIndex = 20;
+            this.ShiftButton.Text = "Shift:";
+            this.ShiftButton.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.ShiftButton.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // ShiftTxt
+            // 
+            this.ShiftTxt.AcceptsReturn = false;
+            this.ShiftTxt.AcceptsTab = false;
+            this.ShiftTxt.AnimationSpeed = 200;
+            this.ShiftTxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.ShiftTxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.ShiftTxt.AutoSizeHeight = true;
+            this.ShiftTxt.BackColor = System.Drawing.Color.Transparent;
+            this.ShiftTxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ShiftTxt.BackgroundImage")));
+            this.ShiftTxt.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.ShiftTxt.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.ShiftTxt.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.ShiftTxt.BorderColorIdle = System.Drawing.Color.Silver;
+            this.ShiftTxt.BorderRadius = 1;
+            this.ShiftTxt.BorderThickness = 1;
+            this.ShiftTxt.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.ShiftTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ShiftTxt.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.ShiftTxt.DefaultText = "";
+            this.ShiftTxt.FillColor = System.Drawing.Color.White;
+            this.ShiftTxt.HideSelection = true;
+            this.ShiftTxt.IconLeft = null;
+            this.ShiftTxt.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.ShiftTxt.IconPadding = 10;
+            this.ShiftTxt.IconRight = null;
+            this.ShiftTxt.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.ShiftTxt.Lines = new string[0];
+            this.ShiftTxt.Location = new System.Drawing.Point(292, 334);
+            this.ShiftTxt.MaxLength = 32767;
+            this.ShiftTxt.MinimumSize = new System.Drawing.Size(1, 1);
+            this.ShiftTxt.Modified = false;
+            this.ShiftTxt.Multiline = false;
+            this.ShiftTxt.Name = "ShiftTxt";
+            stateProperties17.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties17.FillColor = System.Drawing.Color.Empty;
+            stateProperties17.ForeColor = System.Drawing.Color.Empty;
+            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.ShiftTxt.OnActiveState = stateProperties17;
+            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.ShiftTxt.OnDisabledState = stateProperties18;
+            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties19.FillColor = System.Drawing.Color.Empty;
+            stateProperties19.ForeColor = System.Drawing.Color.Empty;
+            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.ShiftTxt.OnHoverState = stateProperties19;
+            stateProperties20.BorderColor = System.Drawing.Color.Silver;
+            stateProperties20.FillColor = System.Drawing.Color.White;
+            stateProperties20.ForeColor = System.Drawing.Color.Empty;
+            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.ShiftTxt.OnIdleState = stateProperties20;
+            this.ShiftTxt.Padding = new System.Windows.Forms.Padding(3);
+            this.ShiftTxt.PasswordChar = '\0';
+            this.ShiftTxt.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.ShiftTxt.PlaceholderText = "Shift";
+            this.ShiftTxt.ReadOnly = false;
+            this.ShiftTxt.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.ShiftTxt.SelectedText = "";
+            this.ShiftTxt.SelectionLength = 0;
+            this.ShiftTxt.SelectionStart = 0;
+            this.ShiftTxt.ShortcutsEnabled = true;
+            this.ShiftTxt.Size = new System.Drawing.Size(344, 43);
+            this.ShiftTxt.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.ShiftTxt.TabIndex = 21;
+            this.ShiftTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.ShiftTxt.TextMarginBottom = 0;
+            this.ShiftTxt.TextMarginLeft = 3;
+            this.ShiftTxt.TextMarginTop = 1;
+            this.ShiftTxt.TextPlaceholder = "Shift";
+            this.ShiftTxt.UseSystemPasswordChar = false;
+            this.ShiftTxt.WordWrap = true;
+            // 
+            // AddStaff
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Phần_mềm_vàng_bạc_trang_sức.Properties.Resources.background_addcustomer;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(844, 557);
+            this.Controls.Add(this.ShiftTxt);
+            this.Controls.Add(this.ShiftButton);
+            this.Controls.Add(this.ExitButton);
+            this.Controls.Add(this.AddStaffButton);
+            this.Controls.Add(this.PhoneTxtAdd);
+            this.Controls.Add(this.EmailTxt);
+            this.Controls.Add(this.GenderAddTxt);
+            this.Controls.Add(this.bunifuLabel4);
+            this.Controls.Add(this.bunifuLabel3);
+            this.Controls.Add(this.bunifuLabel2);
+            this.Controls.Add(this.bunifuLabel1);
+            this.Controls.Add(this.NameAddTxt);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "AddStaff";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 ExitButton;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 AddStaffButton;
+        private Bunifu.UI.WinForms.BunifuTextBox PhoneTxtAdd;
+        private Bunifu.UI.WinForms.BunifuTextBox EmailTxt;
+        private Bunifu.UI.WinForms.BunifuTextBox GenderAddTxt;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel4;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
+        private Bunifu.UI.WinForms.BunifuTextBox NameAddTxt;
+        private Bunifu.UI.WinForms.BunifuLabel ShiftButton;
+        private Bunifu.UI.WinForms.BunifuTextBox ShiftTxt;
+    }
+}
